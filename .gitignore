@@ -1,0 +1,46 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+
+# AWS
+.aws/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+
+# Terraform generated files
+terraform/build/
+*.zip
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+#Json
+response*.json
